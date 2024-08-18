@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+        .button {
+  background-color: #04AA6D;
+  border: none;
+  color:rgb(128, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+</style>
+</head>
+<body>
+    <h1> STUDENT REGISTRATION FORM  </h1>
+    <h2>Available courses </h2>
+
+<table>
+  <tr>
+    <th>Course name </th>
+    <th>Course code </th>
+    <th>Instructor</th>
+    <th>Seats available</th>
+  </tr>
+  <tr>
+    <td>Web Development </td>
+    <td>WD101</td>
+    <td>John Doe</td>
+    <td>15</td>
+  </tr>
+  <tr>
+    <td>Data Structure  </td>
+    <td>CS201</td>
+    <td>Jane smith</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Database System</td>
+    <td>DB301</td>
+    <td>Michael Brown
+    <td>20</td> 
+    </td>
+  </tr>
+</table>
+<br> <br>
+<br> <br>
+    Name :  
+    <input type="Name" id="name " name="name"> <br>   
+    <br> <br>   
+    Email:  
+    <input type="email" id="email" name="email"/> <br>    
+    <br> <br>  
+    Password:  
+    <input type="Password" id="pass" name="pass"> <br>   
+    <br> <br>
+    
+    <label>   
+        Select Course :  
+        </label>   
+        <select>  
+        <option value="Web development">Web development</option>  
+        <option value="Machine learning">Machine learning</option>  
+        </select>  
+        <br> <br>
+        <button>Submit</button>
+        <button>Reset</button>
+    </body>  
+    </html>  
